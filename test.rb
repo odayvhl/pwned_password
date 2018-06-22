@@ -1,2 +1,2 @@
 require 'pwned_passwords'
-PwnedPasswords.check_password("password")
+PwnedPasswords.check_password(ARGV[0])

@@ -24,7 +24,7 @@ class PwnedPasswords
     end
     if password_score > 100
       puts "This password has been detected in too many breaches"
-    elsif (password_score > 20 & password_score < 100)
+    elsif (password_score > 20 && password_score < 100)
       puts "This password is not great. Consider changing it."
     else
       puts "This password is okay"
