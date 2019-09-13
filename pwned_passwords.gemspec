@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.files = ["lib/pwned_passwords.rb"]
   s.homepage = 'https://rubygems.org/gems/pwned_passwords'
   s.license = 'MIT'
+  s.add_development_dependency 'faraday', '~> 0.15'
 end
